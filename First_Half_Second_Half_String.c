@@ -21,5 +21,5 @@ int main(){
             printf("%c",S[i]);
         }
     }
-
+    return 0;
 }
