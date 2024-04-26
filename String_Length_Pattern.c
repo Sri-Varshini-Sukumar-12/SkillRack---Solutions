@@ -36,7 +36,7 @@ int main() {
     int l1 = strlen(S1);
     int l2 = strlen(S2);
     char ch = '*';
-    int len = (l1 > l2) ? l1 : l2; // Find the maximum length
+    int len = (l1 > l2) ? l1 : l2;
     
     for (int i = 0; i < len; i++) {
         if (i < l1 && i < l2) {
